@@ -77,3 +77,25 @@ gdrawer.draw(G)
 file_name = 'sample-graph.pdf'
 gdrawer.save(file_name)
 ```
+
+## A graph with vertices along a circle
+
+```python
+fig_size = (4,4)
+n = 8
+G = RadGraph(n=n, R=2)
+G.edges = [
+    [1, 7],
+    [2, 3],
+    [4, 1],
+    [7, 2],
+    [5, 8],
+    [6, 2],
+    [5, 2],
+    [4, 7],
+    [1, 6]
+]
+
+gd = GraphDrawer(fig_size)
+gd.draw(G)
+```
