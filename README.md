@@ -1,6 +1,8 @@
 # gdraw
 
-gdraw.py defines two classes used to draw a discrete graph using matplolib.pyplot
+**gdraw** is a small program used to draw a discrete graph using matplolib.pyplot
+
+## Example
 
 ```python
 from gdraw import Graph, RadGraph, GraphDrawer
